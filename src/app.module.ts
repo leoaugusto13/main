@@ -13,7 +13,7 @@ import { ProductModule } from './product/product.module';
   }),
     ProductModule
 ],
-  controllers: [AppController, ProductController],
+  controllers: [AppController],
   providers: [AppService],
 })
 export class AppModule {}
